@@ -1,0 +1,179 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>日月潭導覽</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="jquery/jquery.mobile-1.0.1.min.css" />
+	<script src="jquery/jquery-1.6.4.min.js"></script>
+	<script src="jquery/jquery.mobile-1.0.1.min.js"></script>
+	<style type="text/css">
+    .url_nature {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 35px;
+      top: 245px;
+    }	
+	.url_art {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 55px;
+      top: 180px;
+    }
+	</style>
+	
+</head> 
+<body> 
+
+<div data-role="page" id="home">
+
+	<div data-role="header" data-theme="b">
+		<h1>日月潭向山遊客中心</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p align="center"><img src="assets/title.png"></p>	
+		<p>日月潭風景區管理處的向山遊客中心，為日月潭畔的新景點，也是遊客必到景點之一。該建築物由日本建築師團紀彥所設計，整體設計以融入原有地景為中心思想，斜坡式草皮可直通屋頂，以多種弧形從地面拉出所有空間，尋求與大自然的和諧，最特別的就是靠近日月潭的水池以無邊緣的設計讓池面與潭面融為一體。</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="b">		
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#map" data-icon="grid">地圖導覽</a></li>
+				<li><a href="#list" data-icon="star">景點列表</a></li>
+				<li><a href="#tips" data-icon="search">使用說明</a></li>
+				<li><a href="#home" data-icon="home">回首頁</a></li>				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="map">
+
+	<div data-role="header" data-theme="b">
+		<h1>日月潭向山遊客中心</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p><img src="assets/mountain.png"></p>	
+		<a href="#nature"><div class="url_nature"></div></a>
+		<a href="#art"><div class="url_art"></div></a>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="b">		
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#map" data-icon="grid">地圖導覽</a></li>
+				<li><a href="#list" data-icon="star">景點列表</a></li>
+				<li><a href="#tips" data-icon="search">使用說明</a></li>
+				<li><a href="#home" data-icon="home">回首頁</a></li>				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="list">
+
+	<div data-role="header" data-theme="b">
+		<h1>日月潭向山遊客中心</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<ul data-role="listview" data-theme="c">
+			<li><a href="#nature">自然人文館</a></li>
+			<li><a href="#art">日昇月恆藝廊</a></li>
+			<li><a href="#">3D 媒體室</a></li>
+			<li><a href="#">遊客中心</a></li>
+			<li><a href="#">木紋清水模</a></li>			
+		</ul>		
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="b">		
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#map" data-icon="grid">地圖導覽</a></li>
+				<li><a href="#list" data-icon="star">景點列表</a></li>
+				<li><a href="#tips" data-icon="search">使用說明</a></li>
+				<li><a href="#home" data-icon="home">回首頁</a></li>				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="tips">
+
+	<div data-role="header" data-theme="b">
+		<h1>日月潭向山遊客中心</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<ul>
+			<li>可由「地圖導覽」或「景點列表」選取景點。</li>
+			<li>「地圖導覽」模式中，在圓形標示點按一下滑鼠左鍵即可進入「景點導點」頁面。</li>
+			<li>「景點列表」模式中，點按景點名稱即可進入「景點導點」頁面。</li>
+		</ul>		
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="b">		
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#map" data-icon="grid">地圖導覽</a></li>
+				<li><a href="#list" data-icon="star">景點列表</a></li>
+				<li><a href="#tips" data-icon="search">使用說明</a></li>
+				<li><a href="#home" data-icon="home">回首頁</a></li>				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="nature">
+
+	<div data-role="header" data-theme="b">
+		<h1>日月潭向山遊客中心</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p align="center"><img src="assets/nature.jpg"></p>	
+		<p>「自然人文館」以影音互動式導覽遊客認識日月潭的文歷史和自然景觀。房廳的中間是日月潭的立體地圖，可以一眼看清日月潭面目，也很有意思。週圍的展示則是著重在日月潭的自然景觀、歷史，與原住民的文化采風錄。</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="b">		
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#map" data-icon="grid">地圖導覽</a></li>
+				<li><a href="#list" data-icon="star">景點列表</a></li>
+				<li><a href="#tips" data-icon="search">使用說明</a></li>
+				<li><a href="#home" data-icon="home">回首頁</a></li>				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="art">
+
+	<div data-role="header" data-theme="b">
+		<h1>日月潭向山遊客中心</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p align="center"><img src="assets/art.jpg"></p>	
+		<p>「日昇月恆藝廊」以潭區附近工藝名家作品展為主題，大約每隔半年會更換展品，覽出作品非常精緻。也因為展出規模不大，和一般特展或大展有所區隔，對一般遊客來說，不會有太大的壓力，能自在地親臨一場藝文洗禮。</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="b">		
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#map" data-icon="grid">地圖導覽</a></li>
+				<li><a href="#list" data-icon="star">景點列表</a></li>
+				<li><a href="#tips" data-icon="search">使用說明</a></li>
+				<li><a href="#home" data-icon="home">回首頁</a></li>				
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
